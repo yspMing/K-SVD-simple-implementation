@@ -78,7 +78,7 @@ def main():
     cv2.imshow("origin",image)
     cv2.imshow('noisy',noisy.astype(np.uint8))
     cv2.imshow('denoised',denoised)
-    cv2.waitKey(5000)
+    cv2.waitKey(10000)
 
 
 if __name__=="__main__":
